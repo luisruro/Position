@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #6B5CFF;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    height: 80px;
+}
+
+.image{
+    width: 150px;
+    height: 100px;
+    margin-left: 15px;
+}
+
+.etapa-basica{
+    margin-left: 15px;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+    column-gap: 20px;
+}
+
+.container-img-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.js, .sql{
+    border-radius: 15px;
+}
+
+.container-text{
+    display: block;
+}
+
+.container-title{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
