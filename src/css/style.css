@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    border: 1px solid red;
+    height: 900px;
+    margin: 40px;
+}
+
+.position{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static{
+    background-color: lightblue;
+    position: static;
+}
+
+.relative{
+    background-color: lightpink;
+    position: relative;
+}
+
+.absolute{
+    background-color: lightblue;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.fixed{
+    background-color: lightpink;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.sticky{
+    background-color: lightblue;
+    position: sticky;
+    top: 40%;
+}
